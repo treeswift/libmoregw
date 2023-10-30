@@ -1,0 +1,4 @@
+Name: LibMoreGW
+Description: complementary API for MinGW64
+URL: https://github.com/treeswoft/libmoregw
+Libs: -L${libdir} -lwusers -lfatctl -lmemmap -lglob -lgetline -lstrptime
