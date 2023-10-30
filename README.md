@@ -14,7 +14,7 @@ You can link with the libraries selectively based on the features you need. Also
 covered — simply replace the affected `-lsomething` flag.
 
 Component|Maturity|Origin|Linkage|License|Description
----|---|---|---|---
+---|---|---|---|---|---
 [libwusers](https://github.com/treeswift/libwusers)|RC|in-house|`-lwusers`|public domain|`<pwd.h>` and `<grp.h>` (user and group API)
 [libfatctl](https://github.com/treeswift/libfatctl)|RC|in-house|`-lfatctl`|public domain|*nix file API (e.g. the`*at` function family)
 [libmemmap](https://github.com/treeswift/libmemmap)|β|in-house|`-lmemmap`|public domain|`<sys/mman.h>` virtual memory API
