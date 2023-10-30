@@ -13,15 +13,16 @@ LibMoreGW is a metaproject. It contains no buildable code by itself; instead it 
 You can link with the libraries selectively based on the features you need. Also, if MinGW64 finally provides a first-class implementation of a certain API family, you are
 covered — simply replace the affected `-lsomething` flag.
 
-Component|Maturity|Origin|Linkage|Description
+Component|Maturity|Origin|Linkage|License|Description
 ---|---|---|---|---
-[libwusers](https://github.com/treeswift/libwusers)|RC|in-house|`-lwusers`|`<pwd.h>` and `<grp.h>` (user and group API)
-[libfatctl](https://github.com/treeswift/libfatctl)|RC|in-house|`-lfatctl`|*nix file API (e.g. the`*at` function family)
-[libmemmap](https://github.com/treeswift/libmemmap)|β|in-house|`-lmemmap`|`<sys/mman.h>` virtual memory API
-[silverware](https://github.com/treeswift/silverware)|baby steps|in-house|`-lsilver`|*nix process API
-[glob](https://github.com/treeswift/glob)|RC|3rdparty|-lglob|`glob()` and `fnmatch()` API
-[getline](https://github.com/treeswift/getline-compatible)|β|3rdparty|`-lgetline`|`getline` API (a very basic implementation)
-[libob](https://github.com/treeswift/strptime)|RC|3rdparty|`-lstrptime` or `-lob`|the `strptime` function (highly configurable)
+[libwusers](https://github.com/treeswift/libwusers)|RC|in-house|`-lwusers`|public domain|`<pwd.h>` and `<grp.h>` (user and group API)
+[libfatctl](https://github.com/treeswift/libfatctl)|RC|in-house|`-lfatctl`|public domain|*nix file API (e.g. the`*at` function family)
+[libmemmap](https://github.com/treeswift/libmemmap)|β|in-house|`-lmemmap`|public domain|`<sys/mman.h>` virtual memory API
+[libresolw](https://github.com/treeswift/libresolw)|baby steps|mixed|`-lresolw`|BSD|`<resolv.h>` API (domain name resolution, DNS)
+[silverware](https://github.com/treeswift/silverware)|baby steps|in-house|public domain|`-lsilver`|*nix process API
+[glob](https://github.com/treeswift/glob)|RC|3rdparty|-lglob|BSD|`glob()` and `fnmatch()` API
+[getline](https://github.com/treeswift/getline-compatible)|β|3rdparty|ZLib|`-lgetline`|`getline` API (a very basic implementation)
+[libob](https://github.com/treeswift/strptime)|RC|3rdparty|public domain|MIT|`-lstrptime` or `-lob`|the `strptime` function (highly configurable)
 
 # Legal
 
