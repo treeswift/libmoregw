@@ -18,7 +18,7 @@ Component|Maturity|Origin|Linkage|Description
 [libwusers](https://github.com/treeswift/libwusers)|RC|in-house|`-lwusers`|`<pwd.h>` and `<grp.h>` (user and group API)
 [libfatctl](https://github.com/treeswift/libfatctl)|RC|in-house|`-lfatctl`|*nix file API (e.g. the`*at` function family)
 [libmemmap](https://github.com/treeswift/libmemmap)|β|in-house|`-lmemmap`|`<sys/mman.h>` virtual memory API
-[silverware](https://github.com/treeswift/silverware)|early|in-house|`-lsilver`|*nix process API
+[silverware](https://github.com/treeswift/silverware)|baby steps|in-house|`-lsilver`|*nix process API
 [glob](https://github.com/treeswift/glob)|RC|3rdparty|-lglob|`glob()` and `fnmatch()` API
 [getline](https://github.com/treeswift/getline-compatible)|β|3rdparty|`-lgetline`|`getline` API (a very basic implementation)
 [libob](https://github.com/treeswift/strptime)|RC|3rdparty|`-lstrptime` or `-lob`|the `strptime` function (highly configurable)
