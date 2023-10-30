@@ -7,6 +7,15 @@ MinGW64 headers are public domain, but lack certain features. We strive at (O of
 
 (Why RT? Check https://github.com/armdevvel — the front page of Project Rakko dedicated to returning Windows RT devices to useful life.)
 
+Our goal is to provide "organic" *nix-on-Windows coding experience, defined as follows: concepts of the *nix world that have a semantic and/or syntactic equivalents on
+Windows (as per UCRT/MSVCRT or MinGW[64] CRT) *should stay equivalent*. Certain solutions, for example, introduce their own file descriptor (`fd`) table distinct from the
+"real" table in the CRT, and have to substitute all public APIs accepting `fd`s with macros. This is a "walled garden" approach — or, more appropriately called, a "finger
+in the dam" approach; it's unsustainable. If you roll out an API implementation that issues or accepts a file descriptor, it should be interoperable with the rest of the
+standard API working with file descriptors. This is what we guarantee: no global redefinition of syntax or semantic.
+
+The modern Windows OS is getting surprisingly close to its *nix roots, with entire *nix-only concepts (such as named sockets) becoming first-class on Windows. It's a trend
+we welcome; but it's also a trend we find joy in keeping a little bit ahead of.
+
 ## Composition
 
 LibMoreGW is a metaproject. It contains no buildable code by itself; instead it provides a list of libraries (consumable via `pkg-config`) comprising the eventual product.
@@ -35,13 +44,13 @@ Components we have selected as useful third-party building bricks are released e
 While being entirely pro-free market, we don't believe in appropriation of ideas, and software is nothing but ideas.
 
 We obey the copyright law because we don't think it's the right time for a publicly announced disobedience campaign, and for many other purely opportunisic reasons. However,
-when it comes to the status our own work, there is nothing at stake but our principles, and our principles are stated above: ideas are nothing but similarities, and there is
-nothing in pure similarity that has anything in common with any form or property recognized by common law. In certain theistic philosophies, ideas are created by God. In the
-materialistic philosophy, there is simply no such thing; ideas are properites of matter (something that exists) — nothing more than _likenesses_ among something that exists.
-One can own a red scarf, a red dress, a red hat, a red car or a red Japanese maple tree — etc., etc. All of them can be put under a lock or behind a fence, leased,
+when it comes to the status of our own work, there is nothing at stake but our principles, and our principles are stated above: ideas are nothing but similarities, and there
+is nothing in pure similarity that has anything in common with any form of property recognized by common law. In certain theistic philosophies, ideas are created by God. In
+the materialistic philosophy, there is simply no such thing; ideas are properties of matter (something that exists), and nothing more than _likenesses_ among something that
+exists. One can own a red scarf, a red dress, a red hat, a red car or a red Japanese maple tree — etc., etc. All of them can be put under a lock or behind a fence, leased,
 subleased, donated or trashed; but one can't own the red _color_. You can have three cars, three laptops, three homes, three passports of different countries — but you can't
 own _the number three_, or any number, for that matter — and the digital representation of software is nothing but _numbers_.
-*In a nutshell, there is no reasonable philosophy behind the copyright law — and can't be any.*
+In a nutshell, *there is no reasonable philosophy behind the copyright law — and can't be any.*
 
 If you think that a conceptually unsound law is still worth enactment and enforcement on the grounds of the social benefits it brings, you might as well defend establishment
 of a government-endorsed religion on those same grounds. We don't.
