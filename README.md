@@ -19,10 +19,10 @@ Component|Maturity|Origin|Linkage|License|Description
 [libfatctl](https://github.com/treeswift/libfatctl)|RC|in-house|`-lfatctl`|public domain|*nix file API (e.g. the`*at` function family)
 [libmemmap](https://github.com/treeswift/libmemmap)|β|in-house|`-lmemmap`|public domain|`<sys/mman.h>` virtual memory API
 [libresolw](https://github.com/treeswift/libresolw)|baby steps|mixed|`-lresolw`|BSD|`<resolv.h>` API (domain name resolution, DNS)
-[silverware](https://github.com/treeswift/silverware)|baby steps|in-house|public domain|`-lsilver`|*nix process API
-[glob](https://github.com/treeswift/glob)|RC|3rdparty|-lglob|BSD|`glob()` and `fnmatch()` API
-[getline](https://github.com/treeswift/getline-compatible)|β|3rdparty|ZLib|`-lgetline`|`getline` API (a very basic implementation)
-[libob](https://github.com/treeswift/strptime)|RC|3rdparty|public domain|MIT|`-lstrptime` or `-lob`|the `strptime` function (highly configurable)
+[silverware](https://github.com/treeswift/silverware)|baby steps|in-house|`-lsilver`|public domain|*nix process API
+[glob](https://github.com/treeswift/glob)|RC|3rdparty|`-lglob`|BSD|`glob()` and `fnmatch()` API
+[getline](https://github.com/treeswift/getline-compatible)|β|3rdparty|`-lgetline`|ZLib|`getline` API (a very basic implementation)
+[libob](https://github.com/treeswift/strptime)|RC|3rdparty|public domain|`-lstrptime` or `-lob`|MIT|the `strptime` function (highly configurable)
 
 # Legal
 
