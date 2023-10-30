@@ -85,7 +85,7 @@ If you'd like to
 * file a "missing feature" request;
 * propose a component for inclusion into `libmoregw` —
 
-GitHub provides the necessary tools. File an issue here: https://github.com/treeswift/libmoregw
+GitHub provides the necessary tools. File an issue here: https://github.com/treeswift/libmoregw/issues
 
 The three primary criteria for adoption of a certain component are
 * the existence of actual POSIX/BSD/Linux/some*nix API it provides *used within a real software project you are developing or porting*;
