@@ -22,7 +22,7 @@ Component|Maturity|Origin|Linkage|License|Description
 [silverware](https://github.com/treeswift/silverware)|baby steps|in-house|`-lsilver`|public domain|*nix process API
 [glob](https://github.com/treeswift/glob)|RC|3rdparty|`-lglob`|BSD|`glob()` and `fnmatch()` API
 [getline](https://github.com/treeswift/getline-compatible)|β|3rdparty|`-lgetline`|ZLib|`getline` API (a very basic implementation)
-[libob](https://github.com/treeswift/strptime)|RC|3rdparty|public domain|`-lstrptime` or `-lob`|MIT|the `strptime` function (highly configurable)
+[libob](https://github.com/treeswift/strptime)|RC|3rdparty|`-lstrptime` or `-lob`|MIT|the `strptime` function (highly configurable)
 
 # Legal
 
