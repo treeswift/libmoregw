@@ -57,7 +57,7 @@ of a government-endorsed religion on those same grounds. We don't.
 
 A legislated belief in the real existence of ideas, and in human _creation_ of ideas, is nothing better than a legislated belief in God.
 
-### But, but, where'd I get my soup? ("Gde ya budu kharchevetsya?", in the words of Bobson from _The Dog's Heart_?)
+### But, but, where'd I get my soup? (if you recognized a quote from _The Dog's Heart_, you got it right)
 
 Read this: https://german.yale.edu/sites/default/files/hayek_-_the_use_of_knowledge_in_society.pdf
 
@@ -68,7 +68,7 @@ student not knowing how A- and H-bombs work. However, the specific properties of
 most guarded government secrets. Uranium is sold on Amazon, but if you want to build your own Doomsday machine, you are out of luck. _Practical knowledge is infinitely
 worthier than theoretical._
 
-Behind every invenion and every software product — a _named_ achievement — there is a _sea_ of unnamed knowledge never shared with anyone because it is infinitely hard
+Behind every invenion and every software product — a _named_ achievement — there is a _sea_ of unnamed knowledge never shared with anyone because it is infinitely harder
 to share. Read comments to the code of any open source project — do they make sense right away? If they do, someone will gladly read your CV.
 
 The essence of the (c)/IP law is to present it to the public as if only _named_ knowledge mattered — and then, if you are lucky enough to to put a name on your knowledge,
