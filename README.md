@@ -45,7 +45,9 @@ While being entirely pro-free market, we don't believe in appropriation of ideas
 
 We obey the copyright law because we don't think it's the right time for a publicly announced disobedience campaign, and for many other purely opportunisic reasons. However,
 when it comes to the status of our own work, there is nothing at stake but our principles, and our principles are stated above: ideas are nothing but similarities, and there
-is nothing in pure similarity that has anything in common with any form of property recognized by common law. In certain theistic philosophies, ideas are created by God. In
+is nothing in pure similarity that has anything in common with any form of property recognized by common law.
+
+In certain theistic philosophies, ideas are created by God. In
 the materialistic philosophy, there is simply no such thing; ideas are properties of matter (something that exists), and nothing more than _likenesses_ among something that
 exists. One can own a red scarf, a red dress, a red hat, a red car or a red Japanese maple tree — etc., etc. All of them can be put under a lock or behind a fence, leased,
 subleased, donated or trashed; but one can't own the red _color_. You can have three cars, three laptops, three homes, three passports of different countries — but you can't
